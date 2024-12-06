@@ -1,7 +1,8 @@
 let html = document.getElementsByName('html')[0];
+const res = document.getElementById("mg");
+
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector("#dmode");
-    const res = document.getElementById("mg");
 
     button.addEventListener("click", function clicker() {
         const currentTheme = document.documentElement.getAttribute('data-bs-theme'); 
@@ -45,7 +46,7 @@ const form = document.forms['submit-to-google-sheet']
 // My code for Dark Mode
 // let html = document.querySelector("#html-tag")
 // const button = document.querySelector("#dmode")
-// const res = document.getElementById("mg");
+// 
 
 
 
