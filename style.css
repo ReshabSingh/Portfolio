@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+#hm{
+    color: #441752;
+}
+
+.mode{
+    height: 20px;
+    color: #0D6EF8;
+    cursor: pointer;
+}
+#dmode{
+    outline: none;
+    border: none;
+}
+.iconss{
+    height: 35px;
+}
+
+.sm > a{
+    margin-right: 20px;
+}
+
+.sm-icons{
+    height: 25px;
+}
+.resume-download a{
+    text-decoration: none;
+}
+
+.socials > p,a {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.socials > p > img {
+    margin-right: 15px;
+}
+
+.r-b{
+    margin-top: 20px;
+}
+.contactme{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+#input-1, #input-2 ,#input-3{
+    width: 100%;
+    border: 0.02rem  solid black;
+    outline: none;
+    padding: 5px;
+    
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.contact-form > btn {
+    cursor: pointer;
+}
+
+#mg{
+    color: black;
+    display: block;
+    margin-left: 0;
+    margin-right: 32rem;
+}
+/* Projectsss page============================================================== */
+
+
+#projects a{
+    text-decoration: none;
+}
+
+.skills-heading{
+    text-align: center;
+    color: #0D6EF8;
+    margin-top: 20px;
+}
+
+.skills{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+#fa{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.outer{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 50px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center; 
+}
+.la{
+    margin-left: 2rem;
+}
+.outer > img{
+    height: 150px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.demo {
+    height: 100vh; 
+    width: 1200px;
+    margin: 0 auto;  
+  }
+  
+  .demo-card{
+    /* background: linear-gradient(132deg, rgb(138, 134, 222) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%); */
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.62);  
+    height:350px;
+    width:300px;  
+  }
+  /* ===== FOR DEMO ===== */
+  
+  /* ===== MAIN CODE ===== */
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    pointer-events: none;
+    transition: all 0.4s;
+  }
+  
+  .card-hghlght {
+    pointer-events: auto;
+    transform: scale(1);
+    transition: all 0.4s;
+    margin-right: 2rem;
+  }
+  
+  .card-hghlght:hover {
+    opacity: 1;
+    transform: scale(1.07);
+  }
+  
+  .content:hover .card-hghlght:not(:hover) {
+    opacity: 0.3;
+    transform: scale(0.9);
+  }
+
+
+/* ============================Projects====================================== */
+
+.container h2{
+    text-align: center;
+    text-decoration: none;
+    color: #0D6EF8;
+    margin-top: 4rem;
+}
